@@ -1,0 +1,17 @@
+export default {
+  polis: 'Polis',
+  masukanNomorPolis: 'Silahkan masukan nomor polis kamu agar dapat diproses oleh kami',
+  pastikanPolisKamu: 'Pastikan polis kamu telah terdaftar atau dialihkan ke IFG Life.',
+  polisDitemukan: 'Polis berhasil ditemukan',
+  polisTidakDitemukan: 'Polis Tidak Ditemukan',
+  bilaKesulitan: 'Bila kesulitan? Hubungi ',
+  customerCare: 'Customer Care',
+  noPolis: 'Nomor Polis',
+  tidakDitemukan: 'tidak ditemukan pada sistem. Silahkan coba kembali atau hubungi Customer Care kami untuk info lebih lanjut.',
+  kami: ' Kami.',
+  lanjut: 'Lanjut',
+  cek: 'Cek',
+  placeholderPolis: 'No Polis/KTP/No HP/Email',
+  kembali: 'Kembali',
+  customerCare: 'Customer Care',
+};

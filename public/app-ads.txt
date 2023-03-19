@@ -1,0 +1,3 @@
+# apps-ads.txt file for Apps |  life.id/app-ads.txt
+
+facebook.com, 539569111041069, RESELLER, c3e20eee3f780d68

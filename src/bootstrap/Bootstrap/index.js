@@ -1,0 +1,78 @@
+import { connect } from 'react-redux';
+import { getCheckIssuedPolicy, setDeviceId } from '@cp-module/auth/authAction';
+import View from './View';
+import {
+  setAppConfig,
+  setLoading,
+  setFaqAsk,
+  setHospital,
+  setCustomerCare,
+  setBetterOpenApp,
+  setNotAvailable,
+  setAvailableOnMobile,
+  setInternalServerError,
+  setModalTermNCondition,
+  setModalLsTnc,
+  setModalShowRiplay,
+  setLifetagOutOffStock,
+  setLifetagReadyToConnect,
+  setLifetagPairingFailed,
+  setLifetagNotActive,
+  setLifetagAccessFailed,
+  setReferral,
+} from '@cp-bootstrap/bootstrapAction';
+import { setSubmission } from '@cp-module/lifesaver/lifesaverAction';
+
+const mapStateToProps = (state) => ({
+  lang: state.auth.lang,
+  userData: state.auth.userData,
+  token: state.auth.token.access_token,
+  colorScheme: state.auth.colorScheme,
+  authAction: state.auth.action,
+  isLoading: state.bootstrap.isLoading,
+  isFaqAsk: state.bootstrap.isFaqAsk,
+  isHospital: state.bootstrap.isHospital,
+  isCustomerCare: state.bootstrap.isCustomerCare,
+  isBetterOpenApp: state.bootstrap.isBetterOpenApp,
+  isNotAvailable: state.bootstrap.isNotAvailable,
+  isAvailableOnMobile: state.bootstrap.isAvailableOnMobile,
+  isInternalServerError: state.bootstrap.isInternalServerError,
+  toastMsg: state.bootstrap.toastMsg,
+  isModalTermNCondition: state.bootstrap.isModalTermNCondition,
+  isModalLsTnc: state.bootstrap.isModalLsTnc,
+  isModalShowRiplay: state.bootstrap.isModalShowRiplay,
+  isLifetagAccessFailed: state.bootstrap.isLifetagAccessFailed,
+  isLifetagNotActive: state.bootstrap.isLifetagNotActive,
+  isLifetagOutOffStock: state.bootstrap.isLifetagOutOffStock,
+  isLifetagPairingFailed: state.bootstrap.isLifetagPairingFailed,
+  isLifetagReadyToConnect: state.bootstrap.isLifetagReadyToConnect,
+  getCheckIssuedPolicySuccess: state.home.getCheckIssuedPolicySuccess,
+  isReferral: state.bootstrap.isReferral,
+});
+
+const mapDispatchToProps = {
+  setDeviceId: (payload) => setDeviceId(payload),
+  setLoading: (payload) => setLoading(payload),
+  setLoading: (payload) => setLoading(payload),
+  setAppConfig: (payload) => setAppConfig(payload),
+  setFaqAsk: (payload) => setFaqAsk(payload),
+  setHospital: (payload) => setHospital(payload),
+  setCustomerCare: (payload) => setCustomerCare(payload),
+  setBetterOpenApp: (payload) => setBetterOpenApp(payload),
+  setNotAvailable: (payload) => setNotAvailable(payload),
+  setAvailableOnMobile: (payload) => setAvailableOnMobile(payload),
+  setInternalServerError: (payload) => setInternalServerError(payload),
+  setModalTermNCondition: (payload) => setModalTermNCondition(payload),
+  setModalLsTnc: (payload) => setModalLsTnc(payload),
+  setModalShowRiplay: (payload) => setModalShowRiplay(payload),
+  setSubmission: (payload) => setSubmission(payload),
+  setLifetagAccessFailed: (payload) => setLifetagAccessFailed(payload),
+  setLifetagNotActive: (payload) => setLifetagNotActive(payload),
+  setLifetagOutOffStock: (payload) => setLifetagOutOffStock(payload),
+  setLifetagPairingFailed: (payload) => setLifetagPairingFailed(payload),
+  setLifetagReadyToConnect: (payload) => setLifetagReadyToConnect(payload),
+  getCheckIssuedPolicy: (payload) => getCheckIssuedPolicy(payload),
+  setReferral: (payload) => setReferral(payload),
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(View);

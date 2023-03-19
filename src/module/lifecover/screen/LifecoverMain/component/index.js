@@ -1,0 +1,6 @@
+export { default as BoxPremi } from './BoxPremi'
+export { default as BoxHelp } from './BoxHelp'
+export { default as CardPackage } from './CardPackage'
+export { default as CardReason } from './CardReason'
+export { default as SliderLanding } from './SliderLanding'
+export { default as TabLanding } from './TabLanding'

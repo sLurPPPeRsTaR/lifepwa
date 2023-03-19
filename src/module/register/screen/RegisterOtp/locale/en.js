@@ -1,0 +1,17 @@
+export default {
+  otp: 'OTP',
+  masukkanKodeOtp: "Let's enter the OTP code sent by number of ",
+  email: 'email ',
+  nomorHp: 'mobile phone ',
+  otpSalah: 'Wrong OTP code, Please enter the correct code!',
+  kirimUlangOtp: 'Resend OTP',
+  cekJugaFolder: 'Check the spam or junk folder in your email',
+  andaBerhasilTerdaftar: "You've been Registered!",
+  lanjutKeProses: 'Continue to next step?',
+  lewati: 'Skip',
+  verifikasiDataDiri: 'Verify Now',
+  TOO_FREQUENTLY_: 'Too many attempts, Please try again later',
+  error: 'Error',
+  registrasiBerhasil: 'Successfully Registered',
+  menujuBeranda: 'Go to Home Page',
+};

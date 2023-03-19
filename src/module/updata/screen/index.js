@@ -1,0 +1,12 @@
+export { default as UpdataMain } from './UpdataMain';
+export { default as UpdataFormKK } from './UpdataFormKK';
+export { default as UpdataUploadKK } from './UpdataUploadKK';
+export { default as UpdataUploadSelfie } from './UpdataUploadSelfie';
+export { default as UpdataPhone } from './UpdataPhone';
+export { default as UpdataPhoneEdit } from './UpdataPhoneEdit';
+export { default as UpdataInformation } from './UpdataInformation';
+export { default as UpdataInformationRek } from './UpdataInformationRek';
+export { default as UpdataInformationEmail } from './UpdataInformationEmail';
+export { default as UpdataInformationEmailEdit } from './UpdataInformationEmailEdit';
+export { default as UpdataInformationAddress } from './UpdataInformationAddress';
+export { default as UpdataInformationAddressEdit } from './UpdataInformationAddressEdit';

@@ -1,0 +1,5 @@
+import { KycCreatePin } from '@cp-module/kyc/screen';
+
+export default function Page() {
+  return <KycCreatePin />;
+}

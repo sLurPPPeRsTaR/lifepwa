@@ -1,0 +1,67 @@
+import { LifeSaver } from '@cp-config/Images';
+
+export default {
+  namaPanggilan: 'Nickname',
+  namaLengkap: 'Full Name Based on ID Card',
+  nomorKtp: 'ID Card Number',
+  jenisKelamin: 'Gender',
+  lakiLaki: 'Male',
+  perempuan: 'Female',
+  email: 'Email',
+  nomorHp: 'Mobile Number',
+  tanggalLahir: 'Date of Birth',
+  alamatKtp: 'Address as ID Card',
+  jalan: 'Street',
+  placeholderJalan: 'Street',
+  provinsi: 'Province',
+  placeholderProvinsi: 'Province',
+  kota: 'City',
+  placeholderKota: 'City',
+  kecamatan: 'District',
+  kelurahan: 'Subdistrict',
+  placeholderKecamatan: 'District',
+  rt: 'RT',
+  placeholderRt: 'RT',
+  rw: 'RW',
+  placeholderRw: 'RW',
+  kodePos: 'Zip Code',
+  placeholderKodePos: 'Zip Code',
+  updateBtn: 'Save',
+  maafUntukSekarang: 'Maaf Untuk Sekarang Fitur Belum Tersedia',
+  verifikasiSekarang: 'Verify Now',
+  melakukanPerubahan:
+    'Melakukan perubahaan pada nomor HP atau email harus melalui customer care!',
+  backBtn: 'Back',
+  hubungiCustomer: 'Hubungi Customer Care',
+  bantuanCustomer: 'Bantuan Customer Care',
+  apabilaAndaMemerlukan:
+    'Apabila Anda memerlukan bantuan, dapat menghubungi customer care kami.',
+  successUpdate: 'Update Data Berhasil',
+  successBtn: 'Ok',
+  personalData: 'Personal Data',
+  dataAkun: 'Account Data',
+  dataKtp: 'ID Card Data',
+  updateDataSukses: 'Data successfully updated',
+  titleNotVerif: 'You Have Not Verified Your Personal Data',
+  subtitleNotVerif:
+    'Verify your personal data so you can explore more interesting features!',
+  nameInvalid: 'Nickname is invalid',
+  nameRequired: 'Nickname is required',
+  nameLengthTooLong: 'Nick name must be less than 100 letters',
+  bottomInfo:
+    'Email and mobile number that you have registered, can be used on all of IFG digital platform.',
+
+  // renderTooFrequentlyModal
+  terlaluSeringMeminta: 'Too many OTP requests',
+  andaTelahMeminta:
+    'You are temporarily unable to request an OTP code. Please wait for ',
+  detik: ' seconds',
+  cobaLagi: 'Try again',
+  konfirmasiOTP: 'Confirm OTP',
+
+  ubahEmail: 'Update Email',
+  tambahEmail: 'Add Email',
+  ubahPhone: 'Update Phone Number',
+  phoneEmailSudahTerdaftar: 'Already registered Phone Number / Email',
+  placeholderPhone: 'Input Phone number',
+};

@@ -1,0 +1,36 @@
+export default {
+  kamuBelumMengundang: "You haven't invited anyone",
+  ayoUndangTemanmu: "Let's invite your friends so that they are protected too.",
+  terdaftar: 'Registered',
+  terundang: 'Invited',
+  terproteksi: 'Protected',
+  downloadAplikasi: 'Download Life by IFG App To Invite Your Friends',
+  ajakTeman: 'Invite Friends',
+  ayoSalingMelindungi: "Let's Protect Each Other!",
+  berbagiProteksi: 'In addition to protecting yourself, you also participate in protecting those closest to you.',
+  daftarUndangan: 'Invitation List',
+  caraAjakTeman: 'How to Invite Friends',
+  ajakTemanKamu: 'Invite your friends to register and verify at Life by IFG',
+  pastikanTemanmu: <text>Make sure your friends subscribe to Life<span className="italic">SAVER</span> protection</text>,
+  terimakasih: 'Thank you for participating to protect the people closest to you!',
+  informasiStatus: 'Status Information',
+  diundangPada: 'Invited on ',
+
+  //trackList
+  berlangganan: 'Subscribe',
+  referensiKamu: 'Reference by You',
+  referensiOrang: 'Reference by Others',
+
+  ringkasan: 'Summary',
+  sisaUndangan: 'Invitation Remainder',
+  terundangDanTerdaftar: 'Invited and Registered',
+  lihatSemua: 'See All',
+  lihatSedikit: 'See Less',
+  kuotaAjakTeman: 'Your invitation quota will be updated every week',
+  nomorRef: 'Invitation Code',
+  ACTIVE: 'Active',
+  GRACE_PERIOD: 'Grace Period',
+  TERMINATE: 'Terminate',
+  LAPSE: 'Lapse',
+  
+};
